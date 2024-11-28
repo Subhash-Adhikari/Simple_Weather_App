@@ -14,13 +14,14 @@
 
 .searchSec{
   margin-top: 35px;
-  gap: 28px;
   display: flex; 
 }
 
 .searchBar{
   border: 1px solid white;
   border-radius: 28px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
   padding: 10px 12px 10px 12px;
   font-weight: 100;
   font-family: sans-serif;
@@ -39,23 +40,36 @@
 .searchIcon{
   border: 1px solid white;
   padding: 10px 12px 10px 12px;
-  border-radius: 18px;
+  border-radius: 28px;
   background-color: white ;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
 
 }
 
 .weatherImg{
-  margin-top: 60px;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 22px;
+  
 }
 
 .tempreature{
-  font-size: 95px;
+  font-size: 105px;
   color: white;
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
 
 .location{
   font-size: 55px;
   color: white;
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
 
 .humidity{
